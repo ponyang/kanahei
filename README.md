@@ -1,4 +1,4 @@
-# kanahei
+# kanahei의 pisuke & usagi 쪼아!
 kanahei fan page 제작 하고자 함
 * * *
 
