@@ -1,21 +1,13 @@
 package com.kanahei.controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class WebController {
-
-    @GetMapping("/home")
-    @ResponseBody
-    public String Index (){
-        return "home";
-    }
-
-    @GetMapping("/list")
-    @ResponseBody
-    public String list(){
-        return "list";
+    @RequestMapping(value={"", "/", "/*"}, method = RequestMethod.GET)
+    public String index(){
+        return "index.html";
     }
 }
