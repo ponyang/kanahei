@@ -1,0 +1,12 @@
+.idea/
+target/
+*.iml
+package-lock.json
+kanahei-webpage/node_modules/
+src/main/webapp/static/app/
+src/main/webapp/WEB-INF/lib/
+src/main/webapp/WEB-INF/classes/
+src/main/webapp/META-INF/
+.cache/
+out/
+classes/
